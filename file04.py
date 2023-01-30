@@ -6,5 +6,15 @@ def main(data:str):
     Returns:
         list: return answer
     """
+    a=[]
+    for i in data:
+        if i.isidentifier():
+            a.append(i)
+        if i=='\n':
+            a.append('\n')
+    return a
     
 # Read data from file
+f=open('txt_file/data04.txt')
+data=f.read()
+print(main(data))
