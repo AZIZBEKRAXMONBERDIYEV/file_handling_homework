@@ -18,7 +18,7 @@ def main(data:str):
         if i.isdigit():
             x2+=1
 
-        return [x1,x2]
+    return [x1,x2]
 # Read data from file
 f=open('txt_file/data05.txt')
 data=f.read()

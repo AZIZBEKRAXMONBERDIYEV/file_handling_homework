@@ -11,7 +11,7 @@ def main(data:str):
     for i in x1:
         
         x2.append(len(i))
-        return x2
+    return x2
     
 # Read data from file
 f=open('txt_file/data06.txt')
